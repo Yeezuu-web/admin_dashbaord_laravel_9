@@ -14,8 +14,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{Auth::user()->roles}}
                 </div>
             </div>
         </div>
